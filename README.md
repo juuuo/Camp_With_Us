@@ -18,7 +18,7 @@
 
 ## :pushpin: 내가 맡은 기능 - 게시판
 ### :white_heart: 게시글 작성, 수정, 삭제(CRUD) :white_heart:
-  * 게시글 작성 API - summernote (AJAX를 통해 서버로 이미지 업로드)
+  * 게시글 작성 에디터 API - summernote (AJAX를 통해 서버로 이미지 업로드)
   * 게시판 이미지 업로드 - 용량, 개수 제한 설정 (JavaScript 사용)
   * 게시판 슬라이드 - slick-slider (jQuery 슬라이더 라이브러리)
   * 페이스북 위젯 - 페이스북 소셜 플러그인
