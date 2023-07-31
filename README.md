@@ -1,4 +1,4 @@
-# :deciduous_tree: Spring Project - Camp With Us :deciduous_tree:
+# :deciduous_tree: Camp With Us :deciduous_tree:
 * Spring Framework를 사용한 Java Project
 ## :computer: 프로젝트 소개
 * 고캠핑 API를 이용한 캠핑장 검색 및 예약 웹 사이트입니다.
