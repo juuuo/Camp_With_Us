@@ -1,6 +1,6 @@
 # :deciduous_tree: Camp With Us :deciduous_tree:
 * Spring Framework를 사용한 Java Project
-## :computer: 프로젝트 소개
+## :memo: 프로젝트 소개
 * 고캠핑 API를 이용한 캠핑장 검색 및 예약 웹 사이트입니다.
 
 ## :gear: 전체 기능
@@ -23,6 +23,24 @@
   * 게시판 슬라이드 - slick-slider (jQuery 슬라이더 라이브러리)
   * 페이스북 위젯 - 페이스북 소셜 플러그인
   * 게시글 댓글, 대댓글 작성(CRUD)
+
+## :computer: 게시판 구현 화면
+<p align="center">
+	<img src="https://github.com/user-attachments/assets/90ca1ece-c014-454a-8f53-3fe2e3fccff2" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/0b4d93a1-2f5b-43d0-8d43-052942dbe99b" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/272a0c44-5d25-431f-977b-e7df412c4dec" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/1461da83-2d61-43e9-b0f3-47b4e777caa7" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/68593868-fe0e-410d-9d4d-195dc55ea2c2" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/e64af0c8-01c7-474b-a1e6-df01f0524850" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/23d1a51e-19db-40e4-b944-121a6057ca6b" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/39545713-b792-44e7-91aa-12aaf47a0efd" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/b49cd5a5-7791-42b4-b98c-4ca7f8c4be26" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/951139a6-3ba9-41e7-8912-f7709ea4889e" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/748eb393-1b5e-442e-9e8a-13b737ede30f" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/da74ff0f-91f5-42e1-b1bb-125cd15b238f" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/429b1e77-4a5a-41ca-a019-c7a69a44a29f" width="90%" height="90%"/>
+	<img src="https://github.com/user-attachments/assets/5726482e-5655-4f4f-8894-b50d84881e85" width="90%" height="90%"/>
+</p>
  
 ## :dart: 트러블 슈팅
 ### :boom: 게시글 썸네일 이미지
@@ -44,8 +62,10 @@ src 만 걸러내 게시글 목록 VO의 thumbnailImg 에 저장해줌으로써 
 
 ### :boom: 게시글 이미지 업로드
 #### :interrobang: 문제와 원인
-<img width="50%" src="https://github.com/juuuo/git_test/assets/125864004/1bf49e29-ea32-46b6-9bfa-3c09fa6216aa"/>
-<img width="50%" src="https://github.com/juuuo/git_test/assets/125864004/37eb2e77-527d-40ef-8f47-65f8f5aabd1d"/>
+<p align="center">
+<img width="80%" src="https://github.com/juuuo/git_test/assets/125864004/1bf49e29-ea32-46b6-9bfa-3c09fa6216aa"/>
+<img width="80%" src="https://github.com/juuuo/git_test/assets/125864004/37eb2e77-527d-40ef-8f47-65f8f5aabd1d"/>
+</p>
 
 ```
 summernote API에 이미지 업로드시
@@ -53,12 +73,16 @@ summernote API에 이미지 업로드시
 항상 마지막 이미지 저장 경로만 전송되었다.
 ```
 #### :100: 해결 방법
-#### 원래 사용하던 방식
-<img width="50%" src="https://github.com/juuuo/git_test/assets/125864004/66d1445f-e449-4ac3-9cf6-f4db48244103"/>
+#### ☑ 원래 사용하던 방식
+<p align="center">
+<img width="80%" src="https://github.com/juuuo/git_test/assets/125864004/66d1445f-e449-4ac3-9cf6-f4db48244103"/>
+</p>
 
-#### 수정한 방식
-<img width="50%" src="https://github.com/juuuo/git_test/assets/125864004/b8ec30d4-32ec-49b5-89ae-f7c3731f99c2"/>
-<img width="50%" src="https://github.com/juuuo/git_test/assets/125864004/016ea44d-50bd-42cf-943f-2c9f5804c780"/>
+#### ✅ 수정한 방식
+<p align="center">
+<img width="80%" src="https://github.com/juuuo/git_test/assets/125864004/b8ec30d4-32ec-49b5-89ae-f7c3731f99c2"/>
+<img width="80%" src="https://github.com/juuuo/git_test/assets/125864004/016ea44d-50bd-42cf-943f-2c9f5804c780"/>
+</p>
 
 ```
 처음에는 jsonArray에 jsonObject를 담아서 AJAX에 보내는 방식으로 진행했다.
